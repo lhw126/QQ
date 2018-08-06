@@ -1,0 +1,20 @@
+*{
+    font-family: 新宋体;
+    margin: 0px;
+    padding: 0px;
+}
+.border{
+    border: #ff2c51 1px solid;
+}
+/*::-webkit-scrollbar{*/
+    /*display: none;*/
+/*}*/
+.bottom-color{
+    color:deepskyblue;
+}
+.border-top{
+    border-top: #f3f3f3 1px solid;
+}
+.border-bottom{
+    border-bottom: #dcdddd 1px solid;
+}

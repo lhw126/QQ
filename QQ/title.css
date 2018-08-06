@@ -1,0 +1,93 @@
+#title{
+    height: 70px;
+    width: 100%;
+    background-color: #1ba1ff;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+#user{
+    height: 50px;
+    width: 50px;
+    background-image: url(../../resources/img/dev/hadoop.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+    margin-left: 15px;
+    margin-right: 10px;
+}
+#xinxi{
+    height: 70px;
+    flex: 1;
+    color: beige;
+    text-align: center;
+    font-size: 25px;
+    line-height: 70px;
+    /*display: flex;*/
+    /*align-items: center;*/
+}
+#more{
+    height: 70px;
+    width: 60px;
+    color: beige;
+    text-align: center;
+    font-size: 25px;
+    line-height: 70px;
+    background-image: url("img/添加 加号 无边框.svg");
+    background-size: 60%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#more-menu{
+    height:250px;
+    width: 180px;
+    background-color:blue;
+    position: absolute;
+    top: 80px;
+    right: 10px;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    flex-flow:column;
+    display: none;
+    font-size: 16px;
+    border-radius: 5px;
+}
+.small-menu{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    flex-flow: row;
+
+}
+#xiaojiao{
+    height: 15px;
+    width: 15px;
+    background-color: #f0f0f4;
+    position: absolute;
+    transform: rotate(45deg);
+    top: -10px;
+    right: 20px;
+}
+.small-menu-left{
+    height:50px;
+    width: 50px;
+    text-align: center;
+    line-height: 50px;
+}
+.small-menu-right{
+    height: 50px;
+    flex: 1;
+    line-height: 40px;
+    font-size: 16px;
+}
+.tianjia{
+    height: 70px;
+    width: 60px;
+    color: beige;
+    text-align: center;
+    font-size: 23px;
+    line-height: 70px;
+}

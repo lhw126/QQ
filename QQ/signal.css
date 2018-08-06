@@ -1,0 +1,118 @@
+#signal{
+    height: 30px;
+    width: 100%;
+    background-color: #26c2ff;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    font-size: 10px;
+    color: aliceblue;
+}
+#time{
+    height: 30px;
+    width: 60px;
+    line-height: 30px;
+    margin-left: 5px;
+}
+#yidong{
+    height: 30px;
+    width: 120px;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+}
+#power{
+    height: 30px;
+    width: 65px;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+}
+#signal-right{
+    height: 30px;
+    width:140px;
+    display: flex;
+    flex-flow: row-reverse nowrap;
+
+}
+#signal-zhiliang{
+    height: 30px;
+    width: 50px;
+    line-height: 30px;
+    margin-left: 10px;
+}
+#signal-fuhao{
+    height: 18px;
+    width: 30px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: flex-end;
+
+
+}
+#d1{
+    height: 6px;
+    width: 5px;
+    background-color: antiquewhite;
+    border-radius: 2px;
+}
+#d2{
+    height: 8px;
+    width: 5px;
+    background-color: antiquewhite;
+    border-radius: 2px;
+}
+#d3{
+    height: 12px;
+    width: 5px;
+    background-color: antiquewhite;
+    border-radius: 2px;
+    /*background-color: darkgray;*/
+}
+#d4{
+    height: 18px;
+    width: 5px;
+    /*background-color: antiquewhite;*/
+    border-radius: 2px;
+    background-color: darkgray;
+}
+#power-zong{
+    height: 15px;
+    width: 40px;
+    border: aliceblue 1px solid;
+    border-radius: 1px;
+
+
+}
+#power-cover{
+    height: 13px;
+    width: 0px;
+    background-color: lawngreen;
+    border-radius: 1px 0% 0% 1px;
+    margin: 1px;
+}
+#power-head{
+    height: 6px;
+    width: 3px;
+    background-color: whitesmoke;
+    border-radius: 0px 1px 1px 0px;
+
+}
+@keyframes charge {
+    20%{
+        width: 8px;
+        background-color: crimson;
+    }
+    80%{
+        width: 32px;
+        background-color: yellow;
+    }
+    100%{
+        width: 38px;
+        background-color: lawngreen;
+    }
+}
+.powing{
+    animation:charge 6s linear infinite;
+}

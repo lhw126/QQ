@@ -1,0 +1,145 @@
+#information{
+    width: 100%;
+    flex: 1;
+    background-color:whitesmoke;
+    overflow: scroll;
+}
+#sousuo{
+    height: 40px;
+    width: 100%;
+    background-color: whitesmoke;
+    align-items: center;
+    padding-top: 2px;
+}
+.infor-box{
+    height: 90px;
+    width: 100%;
+    display: flex;
+    flex-flow:row nowrap;
+    align-items: center;
+    border-bottom: darkgray 1px solid;
+}
+.infor-left{
+    height:70px;
+    width: 70px;
+    border-radius: 50%;
+    display: flex;
+    margin:0px 10px 0px 10px;
+}
+.infor-right{
+    height: 100%;
+    flex: 1;
+    display: flex;
+    flex-flow: column nowrap;
+    position: relative;
+}
+#sousuokuang
+{
+    height: 35px;
+    width: 98%;
+    border-radius: 10px 10px 10px 10px;
+    margin:0 auto;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    background-color: #f0f0f4;
+    line-height: 35px;
+    align-items: center;
+    color:#707070;
+}
+.world-top{
+    height: 45px;
+    flex: 1;
+    font-size: 18px;
+    font-weight: 600;
+    line-height:45px;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    margin-top: 5px;
+}
+.world-bottom{
+    height: 40px;
+    width: 100%;
+    font-size: 16px;
+    line-height: 35px;
+    position: relative;
+    margin-bottom: 10px;
+}
+.time1{
+    height: 40px;
+    width:50px;
+    font-size: 15px;
+    color: darkgray;
+}
+.tishi-left{
+    height: 25px;
+    width: 25px;
+    background-color: red;
+    position: absolute;
+    top:10px;
+    right: 20px;
+    border-radius: 50px;
+    text-align: center;
+    line-height: 25px;
+    color: whitesmoke;
+}
+.pingbi-xiaoxi{
+    height: 25px;
+    width: 25px;
+    background-color:cornflowerblue;
+    position: absolute;
+    top:10px;
+    right: 20px;
+    border-radius: 50px;
+    text-align: center;
+    line-height: 25px;
+    color: whitesmoke;
+}
+.left1{
+    background-image: url(touxiang/touxiang3.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.left2{
+    background-image: url(touxiang/touxiang4.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.time2{
+    height: 40px;
+    width:70px;
+    font-size: 15px;
+    color: darkgray;
+}
+.julun{
+    height: 25px;
+    width: 25px;
+    background-image:url("img/1533190365(1).jpg");
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    top:12px;
+    right: 60px;
+}
+.left0{
+    background-image: url(touxiang/touxiang1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.left3 {
+    background-image: url(touxiang/touxiang5.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.left4 {
+    background-image: url(touxiang/touxiang6.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.left5 {
+    background-image: url(touxiang/touxiang7.jpg);
+    background-size: cover;
+    background-position: center;
+}
+

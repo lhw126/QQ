@@ -1,0 +1,252 @@
+#space-top{
+    height:70px;
+    width: 100%;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    background-color:#26c2ff;
+    color: #f0f0f4;
+    align-items: center;
+    font-weight: 600;
+}
+#space-bottom{
+    flex: 1;
+}
+#fanhui-dongtai{
+    height:100%;
+    width: 30px;
+    font-size: 35px;
+    line-height: 70px;
+    text-align:center;
+}
+#dongtai-word{
+    width: 70px;
+    line-height: 70px;
+    padding-left: 10px;
+}
+#top-c{
+    flex: 1;
+    line-height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#top-xinxi{
+    width: 50px;
+}
+#top-jiahao{
+    width: 50px;
+}
+#space-center{
+    height: 200px;
+    background-color: #dcdddd;
+    position: relative;
+    background-image: url(picture/空间背景图.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#space-menus{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    flex-flow: row;
+    position: absolute;
+    bottom: 0px;
+    color: whitesmoke;
+}
+.space-menu{
+    height: 100%;
+    flex: 1;
+    text-align: center;
+    line-height: 50px;
+}
+#my-picture{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    position:absolute;
+    top: 70px;
+    left: 25px;
+    background-image: url(../../resources/img/dev/hadoop.jpg);
+    background-position: center;
+    background-size: cover;
+}
+#huangzhuan{
+    height:25px;
+    width: 25px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: -12px;
+    left: 20px;
+    background-color:#c7b370;
+    background-image: url(img/黄钻.svg);
+    background-position: center;
+    background-size:80%;
+    background-repeat: no-repeat;
+    border: whitesmoke 2px solid;
+    color: crimson;
+    font-size: 6px;
+    text-align: center;
+    line-height: 28px;
+    font-weight: 500;
+}
+#xingzhuang{
+    height:60px;
+    width: 150px;
+    position: absolute;
+    bottom: 50px;
+    right: 30px;
+}
+#xingzhuang-bottom{
+    height:14px;
+    font-size: 14px;
+    text-align: center;
+    color:orange;
+}
+#xingzhuang-top{
+    height: 46px;
+    display: flex;
+    flex-flow: row;
+}
+#xingzhuang-top-l{
+    height: 46px;
+    width: 50px;
+    background-image: url(img/狮子座.svg);
+    background-size: cover;
+    background-position: center;
+}
+#xingzhuang-top-r{
+    height:46px;
+    width:100px;
+    color: whitesmoke;
+}
+#xingzhuang-top-r-t{
+    height: 23px;
+    text-align: center;
+}
+#xingzhuang-top-r-b{
+    height: 23px;
+    text-align: center;
+}
+#space-information{
+    flex: 1;
+    overflow: scroll;
+}
+.space-bottom{
+padding-top: 10px;
+    background-color: #dcdddd;
+}
+.user{
+    height:80px;
+    display: flex;
+    flex-flow: row;
+}
+.user-picture{
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    background-image: url(touxiang/touxiang8.jpg);
+    background-size: cover;
+    background-position: center;
+    margin: 10px 10px 5px 10px;
+}
+.user-infor{
+    height: 100%;
+    flex: 1;
+    display: flex;
+    flex-flow: column;
+}
+.user-more{
+    height: 100%;
+    width: 30px;
+    background-image: url(img/xiangxia.svg);
+    background-position:0px 20px;
+    background-size:75%;
+    background-repeat: no-repeat;
+}
+.user-name{
+    height:40px;
+    line-height: 50px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.user-space-infor{
+    height:20px;
+    line-height: 20px;
+    font-size: 15px;
+}
+.user-word{
+    padding-left: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+.user-photo{
+    height:230px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position:10px 0px;
+    padding-left: 10px;
+    background-image: url(picture/img-1.jpg);
+}
+.phone{
+    font-size: 15px;
+    padding-left: 10px;
+}
+.liulan{
+    height: 40px;
+    display: flex;
+    flex-flow: row;
+    padding-left: 10px;
+}
+.liulan-num{
+    height: 20px;
+    flex: 1;
+    font-size: 15px;
+    margin-top: 20px;
+}
+.star{
+    width: 60px;
+    background-image: url(img/点赞00.svg);
+    background-position: center;
+    background-size: 50%;
+    background-repeat: no-repeat;
+}
+.pinglun{
+    width: 60px;
+    background-image: url(img/信息.svg);
+    background-position: center;
+    background-size:50%;
+    background-repeat: no-repeat;
+}
+.zhuanfa{
+    width: 60px;
+    background-image: url(img/转发.svg);
+    background-position: center;
+    background-size:55%;
+    background-repeat: no-repeat;
+}
+.star-name{
+    color:#2c4f54;
+    font-size: 18px;
+    padding-left: 10px;
+    margin: 10px 0px 10px 0px;
+}
+.pinglunkuang{
+    height: 30px;
+    width: 96%;
+    background-color:#e7e7eb;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: row;
+}
+.pinglun-word{
+    flex: 1;
+    line-height: 30px;
+    padding-left: 10px;
+    color: #707070;
+}
+.pinglun-biaoqing{
+    width: 30px;
+    line-height: 30px;
+    font-size: 22px;
+}

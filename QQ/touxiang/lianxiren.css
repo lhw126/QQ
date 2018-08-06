@@ -1,0 +1,70 @@
+#information-lianxiren{
+    width: 100%;
+    flex: 1;
+    background-color:whitesmoke;
+    overflow: scroll;
+}
+.lianxiren-top{
+    height:40px;
+    width: 100%;
+    display: flex;
+    flex-flow: row;
+    line-height: 40px;
+    border-top: #dcdddd 1px solid;
+}
+.lianxiren-top-l{
+    height: 100%;
+    flex: 1;
+    padding-left: 10px;
+}
+.lianxiren-top-r{
+    height: 100%;
+    flex: 1;
+    text-align: right;
+    padding-right: 10px;
+    color: #afafb0;
+    font-size: 20px;
+}
+#lianxiren-leixing{
+    height: 40px;
+    width: 100%;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    margin-top: 30px;
+    border: #dcdddd 1px solid;
+    line-height: 40px;
+    font-weight: 700;
+}
+.lianxiren-heng{
+    height: 40px;
+    flex: 1;
+    text-align: center;
+}
+.lianxiren-menu{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    line-height: 50px;
+}
+.lianxiren-menu-l{
+    height: 100%;
+    width: 30px;
+    text-align: center;
+    font-size: 20px;
+    color: #afafb0;
+}
+.lianxiren-menu-c{
+    height: 100%;
+    flex: 1;
+    font-weight: 700;
+}
+.lianxiren-menu-r{
+    height: 100%;
+    width: 50px;
+    text-align:right;
+    padding-right: 10px;
+    color: #afafb0;
+}

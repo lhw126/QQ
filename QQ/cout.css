@@ -1,0 +1,17 @@
+#cout{
+    height:100%;
+    width:100%;
+    display: flex;
+    flex-flow:column nowrap;
+    justify-content: space-between;
+    position: fixed;
+    /*max-height: 1000px;*/
+    z-index: 1;
+}
+#tm:checked ~ #title  {transform: translateX(290px);  transition: all .15s }
+#tm:checked ~ #information  {transform: translateX(290px); transition: all .15s }
+#tm:checked ~ #menu  {transform: translateX(290px); transition: all 0.15s }
+#tm:checked ~ #information-lianxiren  {transform: translateX(290px); transition: all 0.15s }
+#tm{
+    display: none;
+}
