@@ -67,7 +67,7 @@
     position:absolute;
     top: 70px;
     left: 25px;
-    background-image: url(../../resources/img/dev/hadoop.jpg);
+    background-image: url(../hadoop.jpg);
     background-position: center;
     background-size: cover;
 }
